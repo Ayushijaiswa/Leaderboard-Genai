@@ -17,7 +17,7 @@ body {
         background-color: #000;
     }
     50% {
-        background-color: #003366; /* Darker blue color */
+        background-color: #011428; /* Darker blue color */
     }
     100% {
         background-color: #000;
@@ -144,3 +144,220 @@ body {
     overflow: hidden; /* Prevents scrollbars */
     z-index: 10; /* Keep the sparks above other elements */
 }
+/* Neon Text for Google GenAI Study Jam */
+.neon-text {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: neonGlow 1.5s infinite alternate;
+}
+
+.neon-text .g { color: #4285F4; text-shadow: 0 0 10px #4285F4; }
+.neon-text .o1 { color: #DB4437; text-shadow: 0 0 10px #DB4437; }
+.neon-text .o2 { color: #F4B400; text-shadow: 0 0 10px #F4B400; }
+.neon-text .g2 { color: #0F9D58; text-shadow: 0 0 10px #0F9D58; }
+.neon-text .l { color: #4285F4; text-shadow: 0 0 10px #4285F4; }
+.neon-text .e { color: #DB4437; text-shadow: 0 0 10px #DB4437; }
+.neon-text .genai { color: #0F9D58; text-shadow: 0 0 10px #0F9D58; }
+
+/* Neon glow animation */
+@keyframes neonGlow {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0040, 0 0 30px #ff0040;
+    }
+    to {
+        text-shadow: 0 0 10px #fff, 0 0 20px #ff0040, 0 0 30px #ff0040, 0 0 40px #ff0040;
+    }
+}
+
+/* Neon Text for Google GenAI Study Jam */
+.google-genai {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    animation: neonGlow 1.5s infinite alternate;
+}
+
+/* Google brand colors for "Google" */
+.google-genai .g { color: #4285F4; text-shadow: 0 0 10px #4285F4, 0 0 20px #4285F4, 0 0 30px #4285F4; }
+.google-genai .o1 { color: #DB4437; text-shadow: 0 0 10px #DB4437, 0 0 20px #DB4437, 0 0 30px #DB4437; }
+.google-genai .o2 { color: #F4B400; text-shadow: 0 0 10px #F4B400, 0 0 20px #F4B400, 0 0 30px #F4B400; }
+.google-genai .g2 { color: #0F9D58; text-shadow: 0 0 10px #0F9D58, 0 0 20px #0F9D58, 0 0 30px #0F9D58; }
+.google-genai .l { color: #4285F4; text-shadow: 0 0 10px #4285F4, 0 0 20px #4285F4, 0 0 30px #4285F4; }
+.google-genai .e { color: #DB4437; text-shadow: 0 0 10px #DB4437, 0 0 20px #DB4437, 0 0 30px #DB4437; }
+
+/* "GenAI Study Jam" with mixed colors from Google’s logo */
+.google-genai .genai span {
+    text-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor, 0 0 40px currentColor;
+    opacity: 0.9;
+}
+
+.google-genai .genai .g { color: #4285F4; } /* Blue */
+.google-genai .genai .e { color: #DB4437; } /* Red */
+.google-genai .genai .n { color: #F4B400; } /* Yellow */
+.google-genai .genai .a { color: #0F9D58; } /* Green */
+.google-genai .genai .i { color: #F4B400; } /* Yellow */
+.google-genai .genai .s { color: #4285F4; } /* Blue */
+.google-genai .genai .t { color: #DB4437; } /* Red */
+.google-genai .genai .u { color: #F4B400; } /* Yellow */
+.google-genai .genai .d { color: #0F9D58; } /* Green */
+.google-genai .genai .y { color: #4285F4; } /* Blue */
+.google-genai .genai .j { color: #DB4437; } /* Red */
+.google-genai .genai .a2 { color: #F4B400; } /* Yellow */
+.google-genai .genai .m { color: #0F9D58; } /* Green */
+
+/* Neon glow animation */
+@keyframes neonGlow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff0040, 0 0 40px #ff0040;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff0040, 0 0 40px #ff0040, 0 0 50px #ff0040;
+    }
+}
+/* Neon Effect for GenAI Study Jam */
+.genai-title {
+    font-size: 20px; /* Increase font size */
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0; /* Add some margin */
+    background: linear-gradient(90deg, #4285F4, #DB4437, #F4B400, #0F9D58);
+    -webkit-background-clip: text; /* Clip the background */
+    -webkit-text-fill-color: transparent; /* Make the text fill transparent */
+    animation: neonGlow 1.5s infinite alternate; /* Add glow effect */
+}
+
+/* Neon glow animation */
+
+
+.genai-title:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    transition: transform 0.3s; /* Smooth transition */
+}
+/* Google GenAI Study Jam Title */
+.genai-title {
+    font-size: 45px; /* Larger font size */
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0; /* Margin for spacing */
+}
+
+/* Google Colors for "Google" */
+.google-title {
+    display: inline; /* Ensure it's inline with other text */
+}
+
+.google-title .g {   color: #4285F4; text-shadow: 0px 0px 10px #4285F4; } /* Blue */
+.google-title .o1 { color: #DB4437; text-shadow: 0px 0px 10px #DB4437; } /* Red */
+.google-title .o2 { color: #F4B400; text-shadow: 0px 0px 10px #F4B400; } /* Yellow */
+.google-title .g2 { color: #0F9D58; text-shadow: 0px 0px 10px #0F9D58; } /* Green */
+.google-title .l { color: #4285F4; text-shadow: 0px 0px 10px #4285F4; } /* Blue */
+.google-title .e { color: #DB4437; text-shadow: 0px 0px 10px #DB4437; } /* Red */
+
+/* Neon Effect for "GenAI Study Jam" */
+.genai-highlight {
+    font-size: 20px; /* Same font size */
+    font-weight: bold;
+    background: linear-gradient(90deg, #4285F4, #DB4437, #F4B400, #0F9D58);
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: transparent; /* Make the text fill transparent */
+    animation: neonGlow 6s infinite alternate; /* Neon glow effect */
+}
+
+/* Neon glow animation */
+
+@keyframes neonGlow {
+    0% { text-shadow: 
+        0 0 2px #fff,      /* Softer white glow */
+        0 0 3px #4285F4,   /* Soft blue glow */
+        0 0 4px #DB4437;   /* Soft red glow */
+    }
+    50% { text-shadow: 
+        0 0 1px #fff,      /* Very subtle white glow */
+        0 0 2px #e7d9b1,   /* Light beige glow */
+        0 0 2px #0F9D58;   /* Soft green glow */
+    }
+    100% { text-shadow: 
+        0 0 2px #fff,      /* Softer white glow */
+        0 0 3px #4285F4,   /* Soft blue glow */
+        0 0 2px #DB4437;   /* Soft red glow */
+    }
+}
+
+
+.Google{
+    font-size: 80px;
+}
+.spark-container {
+    position: relative; /* Relative to the container */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height, adjust as needed */
+    overflow: hidden; /* Prevent overflow */
+    pointer-events: none; /* Allow clicks through to other elements */
+}
+/* Google Title with Golden Outline */
+.google-title {
+    font-family: 'Genai', sans-serif; /* Ensure you have included the Genai font */
+    font-size: 60px; /* Font size for Google */
+    font-weight: bold; /* Make it bold */
+    text-align: center;
+    margin: 20px 0; /* Spacing */
+    position: relative; /* Needed for positioning pseudo-elements */
+}
+
+/* Golden outline effect */
+.google-title::before {
+    content: attr(data-text); /* Use the same text as the content */
+    position: absolute;
+    left: 0; /* Positioning */
+    top: 0;
+    color: transparent; /* Transparent text */
+    text-shadow: 
+        2px 2px 0 #FFD700,  /* Right & down shadow */
+        -2px -2px 0 #FFD700, /* Left & up shadow */
+        -2px 2px 0 #FFD700,  /* Left & down shadow */
+        2px -2px 0 #FFD700,  /* Right & up shadow */
+        0 0 5px rgba(255, 215, 0, 0.5); /* Subtle glow */
+}
+
+/* Actual text */
+.google-title span {
+    position: relative;
+    color: #4285F4; /* Google blue color inside */
+    z-index: 1; /* Place it above the outline */
+}
+/* Google Title with Golden Outline */
+.google-title {
+    font-family: 'Genai', sans-serif; /* Ensure you have included the Genai font */
+    font-size: 60px; /* Font size for Google */
+    font-weight: bold; /* Make it bold */
+    text-align: center;
+    margin: 20px 0; /* Spacing */
+    position: relative; /* Needed for positioning pseudo-elements */
+}
+
+/* Golden outline effect */
+.google-title::before {
+    content: attr(data-text); /* Use the same text as the content */
+    position: absolute;
+    left: 0; /* Positioning */
+    top: 0;
+    color: transparent; /* Transparent text */
+    text-shadow: 
+        2px 2px 0 #FFD700,  /* Right & down shadow */
+        -2px -2px 0 #FFD700, /* Left & up shadow */
+        -2px 2px 0 #FFD700,  /* Left & down shadow */
+        2px -2px 0 #FFD700,  /* Right & up shadow */
+        0 0 5px rgba(255, 215, 0, 0.5); /* Subtle glow */
+}
+
+/* Actual text */
+.google-title span {
+    position: relative;
+    color: #4285F4; /* Google blue color inside */
+    z-index: 1; /* Place it above the outline */
+}
+
+
